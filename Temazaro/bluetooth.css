@@ -1,0 +1,62 @@
+body{
+    background-image: url(hatter.jpg);
+    background-size: 100%;
+
+}
+.container{
+    max-width: 1000px;
+    background-color: rgb(172, 243, 243);
+    padding: 20px;
+    margin: 0 auto;
+}
+h2{
+    color: blue;
+}
+.kep-tarolo img{
+    max-width: 200px;
+    max-height: 200px;
+}
+.kep-tarolo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.kep-tarolo p{
+    text-align: center;
+    color: blue;
+    text-indent: 0;
+}
+.kep-tarolo div{
+    box-shadow: 0 0 5px blue;
+    border-radius: 5px;    
+}
+table{
+    box-shadow:0 0 5px blue;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+td{
+    padding: 5px;
+    border: solid 1px white;
+    text-align: center; 
+
+    
+}
+thead{
+    color: white;
+    background-color: blue;
+}
+p{
+    text-indent: 1rem;
+    text-align: justify;
+}
+.felkover{
+    font-weight: bold;
+    color: blue;
+}
+footer{
+    text-align: right;
+    margin: 10px auto 10px auto;
+}
