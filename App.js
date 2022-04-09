@@ -1,7 +1,7 @@
 import React from 'react'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import { HashRouter,Routes,Route } from 'react-router-dom';
 import './App.css';
 import {Header} from './components/Header';
 import {Main} from './components/Main';
@@ -12,15 +12,16 @@ import {Registration} from './components/Registration';
 function App() {
   return (
     <div className="app">
-      <BrowserRouter>
+      <HashRouter>
         <Header />
           <Routes>
+            <Route path="/" element={<Main />} />
             <Route path="/" element={<Main />} />
             <Route path="/bejelentkezes" element={<Login />} />
             <Route path="/regisztracio" element={<Registration />} />
           </Routes>
        <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }

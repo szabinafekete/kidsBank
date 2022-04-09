@@ -50,6 +50,22 @@ a:hover{
 h3{
   margin-bottom: 1.5rem;
 }
+@media screen and (min-width: 576px) {
+  .col2{
+    width: 50%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .col2{
+    width: 100%;
+  }
+  .input{
+    display: block;
+  }
+}
+.d_none{
+  display: none;
+}
 /*Main*/
 .box{
   min-width: 200px;
@@ -60,7 +76,7 @@ h3{
   height: 80px;
   margin-bottom: 1rem;
 } 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 576px) {
   .boxs {
     flex-direction: column;
   }
@@ -71,7 +87,7 @@ h3{
     margin-bottom: 1rem;
   }
 }
-@media screen and (min-width: 540px) {
+@media screen and (min-width: 576px) {
   .box{
     max-width: 100%;
   }
@@ -79,6 +95,12 @@ h3{
     margin-right: 5%;
   }
 }
+@media screen and (min-width: 576px) {
+  .reg .box{
+    min-width: 500px;
+  }
+}
+
 
 
 
