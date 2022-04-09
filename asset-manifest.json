@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/kidsBank/static/css/main.0dc61238.css",
+    "main.js": "/kidsBank/static/js/main.a16ad6fd.js",
+    "static/media/logo.png": "/kidsBank/static/media/logo.e979b59efa6202cd6a46.png",
+    "index.html": "/kidsBank/index.html",
+    "main.0dc61238.css.map": "/kidsBank/static/css/main.0dc61238.css.map",
+    "main.a16ad6fd.js.map": "/kidsBank/static/js/main.a16ad6fd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0dc61238.css",
+    "static/js/main.a16ad6fd.js"
+  ]
+}
